@@ -1,0 +1,118 @@
+body {
+    background-color: #f0f0f0; /* Rangi ya kijivu hafifu kwa nyuma */
+    font-family: sans-serif;   /* Aina ya maandishi ya kisasa */
+    text-align: center;        /* Kila kitu kikae katikati */
+    padding-top: 50px;
+}
+body {
+    background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    margin: 0;
+}
+
+h1 {
+    color: #2c3e50;            /* Rangi ya bluu nzito */
+}
+
+button {
+    background-color: #27ae60; /* Rangi ya kijani */
+    color: white;              /* Maandishi ya meupe */
+    padding: 15px 30px;        /* Ukubwa wa kitufe */
+    border: none;
+    border-radius: 8px;        /* Kupinda kwa pembe za kitufe */
+    cursor: pointer;           /* Mkono uonekane ukigusa kitufe */
+}
+.picha-yangu {
+    width: 200px;           /* Tunapunguza ukubwa uwe wa wastani */
+    height: 200px;          /* Lazima upana na urefu ulingane ili iwe duara */
+    object-fit: cover;      /* Inahakikisha picha haijivuti vibaya */
+    border-radius: 50%;     /* Hii ndio inatengeneza duara (circle) */
+    border: 5px solid white; /* Fremu nyeupe */
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2); /* Kivuli kwa mbali ili ipendeze */
+}
+.picha-yangu {
+    width: 300px;           /* Iongezee ukubwa kidogo */
+    height: auto;           /* Hii itafanya picha isijivute, ibaki na umbo lake */
+    border-radius: 20px;    /* Badala ya duara la 50%, weka 20px ili iwe na pembe za mduara tu */
+    border: 5px solid white;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+.jina-langu {
+    font-size: 32px;
+    color: #2c3e50;
+    margin-top: 20px;
+}
+
+.bio {
+    font-size: 18px;
+    color: #7f8c8d;
+    max-width: 600px;
+    margin: 10px auto;
+    line-height: 1.6;
+}
+
+.link-wasap {
+    display: inline-block;
+    margin-top: 15px;
+    color: #27ae60;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #27ae60;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.link-wasap:hover {
+    background-color: #27ae60;
+    color: white;
+}
+.jina-website {
+    font-family: 'Arial Black', sans-serif;
+    color: #2c3e50;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.mawasiliano {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    display: inline-block;
+    margin-top: 20px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+.namba-simu {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e74c3c; /* Rangi nyekundu ya kuvutia */
+    text-decoration: none;
+}
+
+.namba-simu:hover {
+    color: #c0392b;
+    text-decoration: underline;
+}
+@media (max-width: 600px) {
+    .picha-yangu {
+        width: 80%; /* Picha itajipunguza yenyewe kwenye simu */
+    }
+    .jina-website {
+        font-size: 28px;
+    }
+}
+.sehemu-ya-chini {
+    margin-top: 50px;           /* Inatoa nafasi kati ya footer na vitu vya juu */
+    padding: 20px;
+    background-color: #2c3e50;  /* Rangi ya bluu nzito */
+    color: white;               /* Maandishi yawe meupe */
+    font-size: 14px;
+}
+
+.sehemu-ya-chini p {
+    margin: 5px 0;              /* Nafasi ndogo kati ya mistari ya footer */
+}
